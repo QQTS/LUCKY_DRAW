@@ -17,6 +17,7 @@ let listedClass6 = class6.toString().split(";");
 
 const allClasses = [listedClass1, listedClass3, listedClass6];
 
+
 Array.prototype.remove = function (value) {
   var index = this.indexOf(value);
   console.log(this[index]);
@@ -25,18 +26,20 @@ Array.prototype.remove = function (value) {
 
 var timer;
 
+// Looping through all the names that was provided by the nameList of currentClass
 const startTimer = function (currentClass) {
-  var d = currentClass.length - 1; //跳动到最后的数字
-  var s = 0; //起始起始值 一般是 0 或其他
-  var time = 1000; //所用时间 1000毫秒（ 在1秒内 数值增加到d）;
-  var outTime = 0; //所消耗的时间
-  var interTime = 3;
+  var d = currentClass.length - 1;  //End
+  var s = 0;  //Start
+  var time = 1000; 
+  var outTime = 0; 
+  var interTime = 3; // Interval
   timer = setInterval(function () {
     outTime += interTime;
     if (outTime < time) {
       names.innerHTML = currentClass[parseInt((d / time) * outTime)];
     } else {
       names.innerHTML = currentClass[d];
+      // Reset the timer, make it loop all over again
       outTime = 0;
     }
   }, interTime);
@@ -46,6 +49,7 @@ draw.addEventListener("click", () => {
   if (draw.textContent === "🎲 STOP") {
     draw.textContent = "🎲 START";
     clearInterval(timer);
+    // Remove the drawed person from the list
     allClasses[select.value].remove(names.textContent);
   } else {
     draw.textContent = "🎲 STOP";
