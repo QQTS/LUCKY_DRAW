@@ -5,7 +5,7 @@
 2. if anyone is chosen, then he would be automatically deleted from the pool, unless you reload the page.
 
 `#MANUSCRIPT`:
-1. download all the files;
+1. download all the files(no need to install anything);
 2. open `script.js` with VS code or text editor => { find these three lines: `const class1 =
   "小米;小包;小份;小金;小飞;小打击;小奥;小特";
 const class3 =
