@@ -14,4 +14,4 @@ const class6 =
   "小阮;韩;徐;杨;严易;陈韵;徐扬;陈城;车轩;徐红;李瑜;董宇;俞越";` .then (replace these names with your name lists (please be aware that every individual name should be separeted with an English semiclumn instead of any other language:) ) .then save the file}
 3. open the file named `index.html`, choose the right class then press the button  `START`, then after a while `STOP`, all done.
 
-`#PREVIEW` is available in the picture 'PREVIEW'.
+`#PREVIEW` is available in the picture 'PREVIEW.png'.
