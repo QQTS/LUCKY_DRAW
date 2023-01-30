@@ -1,7 +1,7 @@
 # LUCKY_DRAW
 
 `#FEATURES`:
-1. suitable for small groups(liake a class) to randomly draw one person each time;
+1. suitable for small groups(like a class) to randomly draw one person each time;
 2. if anyone is chosen, then he would be automatically deleted from the pool, unless you reload the page.
 
 `#MANUSCRIPT`:
