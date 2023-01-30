@@ -7,7 +7,7 @@ const names = document.querySelector(".name");
 const class1 =
   "小米;小包;小份;小金;小飞;小打击;小奥;小特";
 const class3 =
-  "小周;小许;小城;小雯雯;小秦;小珂;小冠;小彬;";
+  "小周;小许;小城;小雯;小秦;小珂;小冠;小彬";
 const class6 =
   "小阮;韩;徐;杨;严易;陈韵;徐扬;陈城;车轩;徐红;李瑜;董宇;俞越";
 
